@@ -1,0 +1,29 @@
+.contact-page {
+  background-color: #121212;
+  color: #dcdcdc;
+  min-height: 100vh;
+  padding: 60px 20px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #00f7ff;
+  text-shadow: 0 0 8px #00f7ff;
+}
+
+.contact-sub {
+  font-size: 16px;
+  color: #ccc;
+  margin-bottom: 40px;
+}
+
+.icon-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}

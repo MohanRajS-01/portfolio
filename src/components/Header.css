@@ -1,0 +1,49 @@
+.header {
+  background-color: #222;
+  padding: 20px 30px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.header ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px 10px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.header ul li a:hover {
+  color: #00f7ff;
+  font-size: 18px;
+}
+
+/* Active Page Style */
+.header ul li a.active {
+  color: #00f7ff;
+}
+
+/* Underline only for active */
+.header ul li a.active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  height: 2px;
+  width: 100%;
+  background-color: #00f7ff;
+  transition: width 0.3s ease;
+}

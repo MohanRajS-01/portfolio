@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fefefe;
+}
+
+.header {
+  background: #222;
+  color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.header ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 150px;
+  margin: 15px auto;
+  display: block;
+  border: 4px solid #222;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: white;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 24px;
+  color: #555;
+}
+
+button {
+  background: #222;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+/* Make body and root fill the entire screen */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Make App use flex column layout */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Make content expand and footer stay at bottom */
+.main-content {
+  flex: 1;
+}

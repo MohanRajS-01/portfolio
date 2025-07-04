@@ -1,0 +1,73 @@
+.about-page {
+  background-color: #121212;
+  color: #dcdcdc;
+  min-height: 100vh;
+  padding: 60px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #00f7ff;
+  text-shadow: 0 0 8px #00f7ff;
+}
+
+.about-card {
+  background-color: #1e1e1e;
+  border-left: 4px solid #00f7ff;
+  padding: 25px 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 247, 255, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-6px);
+  background-color: #262626;
+  box-shadow: 0 0 15px rgba(0, 247, 255, 0.2);
+}
+
+.about-card h2 {
+  color: #00f7ff;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.about-card ul {
+  padding-left: 20px;
+}
+
+.about-card li {
+  font-size: 15px;
+  color: #ccc;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.button-wrapper {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.project-button {
+  background-color: #00c89c;
+  color: #ffffff;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  font-weight: 600;
+}
+
+.project-button:hover {
+  background-color: #00f7ff;
+  color: black;
+  transform: scale(1.05);
+  box-shadow: 0 0 14px #00f7ff;
+}
